@@ -1,0 +1,44 @@
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: -100px 0 0 -150px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;   
+background-color: #2B1B3A;
+color: white;
+
+  }
+  
+  h1 {
+    font-weight: 300;
+    color: #C39BD3;
+  }
+  
+  button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4B0082;
+  }
+  
+  button:first-child {
+    background-color: green;
+  }
+  
+  button:nth-child(2) {
+    background-color: red;
+  }
+  
+  div.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    margin-top: 30px;
+  }
+  
